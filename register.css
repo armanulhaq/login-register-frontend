@@ -74,15 +74,13 @@ body {
     text-align: right;
 }
 
-.login-in-register-container {
-    text-align: center;
-}
 
 .login-in-register {
     font-size: smaller;
     color: #2d00f7;
     font-weight: 400;
     text-decoration: none;
+    text-align: center;
 }
 
 .register-button {
@@ -143,7 +141,7 @@ body {
         border-radius: 10px 10px 10px 10px;
     }
     #register-fields-container {
-        height: 70%;
+        height: 90%;
         width: 90%;
         display: flex;
         flex-direction: column;
@@ -152,7 +150,7 @@ body {
         margin-top: 10px;
         margin-bottom: 10px;
         width: 100%;
-        height: 35px;
+        height: 30px;
         color: white;
         background-color: #480ca8;
         cursor: pointer;
@@ -162,11 +160,33 @@ body {
     
     .register-input {
         width: 100%;
-        height: 35px;
+        height: 30px;
         padding-left: 10px;
         padding-right: 10px;
         background-color: #f2ebfb;
         border-style: none;
         border-radius: 5px;
+    }
+    
+    .input-label {
+        font-size: x-small;
+    }
+    #register-heading {
+        margin-bottom: 5px;
+        font-size: small;
+        font-weight: 600;
+    }
+    
+    #register-sub-heading {
+        color: #4d4b4b;
+        font-weight: 300;
+        font-size: x-small;
+    }
+    .login-in-register {
+        font-size: x-small;
+        color: #2d00f7;
+        font-weight: 300;
+        text-decoration: none;
+        text-align: center;
     }
 }   
